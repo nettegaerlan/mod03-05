@@ -1,0 +1,161 @@
+
+/*universal selector*/
+
+/** {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+}*/
+
+body {
+		background-color: #C1CCE0;
+
+
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Fredoka One', cursive;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto; /*0 - vertical, auto center the element - only works with width*/
+	background-color: #f2f2f2; /*off white*/
+	color: #404040; /*off black*/
+	border-radius: 5px;
+
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+header {
+	background-color: #13315C; /*aqua*/
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #8DA9C4; /*grey*/
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Ranga', cursive;
+	font-size: 18px;
+}
+
+.dashboard-thumbnail {
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%; /*to make it circle*/
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+
+#post-circle {
+	background-color: #6885A6;
+	margin-left: 60px; margin - makes space outside the element
+}
+
+#image-circle {
+	background-color: #09c;
+	margin-left: 60px;
+}
+
+#post-title {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#post-content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.btn {
+	border: none;
+	padding: 15px 30px; /*first padding vertical; 2nd horizontal*/
+	font-size: 14px;
+	border-radius: 10px;
+	color: #fff; 
+	font-family: 'Kaushan Script', cursive;
+}
+
+.btn-blue {
+	background-color: #3D5679;
+}
+
+.btn-green {
+	background-color: #122D54;
+}
+
+#btn-browse {
+	margin-left: 20px;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.img-set {
+	height: 70px;
+	width: 100px;
+	background-color: white;
+	padding: 5px; /*one value all sides affected*/
+	border-radius: 10px;
+	margin: 0 5px;
+}
+
+.img-set-holder {
+	text-align: center;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+	margin: 0;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	font-family: 'Kaushan Script', cursive;
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#btn-publish, 
+#btn-upload,
+#btn-browse {
+	float: right;
+}
